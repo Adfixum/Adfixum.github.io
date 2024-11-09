@@ -70,12 +70,12 @@ img {
 
 
 .logo {
-    width: 50px;
+    width: 150px;
     margin: 10px;
 }
 .hero-section {
-    background-image: url('Logo.jpg');
+    background-image: url('images/Logo.jpg');
     background-size: cover;
     background-position: center;
-    height: 50px;
+    height: 400px;
 }
