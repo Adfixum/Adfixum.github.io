@@ -52,3 +52,13 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: red;
 }
+body {
+    color: black;
+}
+
+main, section, p {
+    color: black;
+}
+.legal-content {
+    color: black;
+}
