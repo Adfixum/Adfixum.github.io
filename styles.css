@@ -65,8 +65,13 @@ nav ul li a:hover {
     color: rgb(17, 0, 255);
 }
 
-h1, h2 {
-    color: rgb(255, 255, 255);
+/* Neue spezifischere Regeln */
+header h1 {
+    color: white;
+}
+
+main h2 {
+    color: black;
 }
 
 #Kontakt {
