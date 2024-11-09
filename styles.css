@@ -62,3 +62,20 @@ main, section, p {
 body {
     color: black;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo {
+    width: 150px;
+    margin: 10px;
+}
+.hero-section {
+    background-image: url('images/Logo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
