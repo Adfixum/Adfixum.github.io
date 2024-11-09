@@ -76,8 +76,8 @@ main h2 {
 }
 
 #Kontakt {
-    background-color: rgb(215, 12, 12);
-    color: blue;
+    background-color: rgb(186, 186, 186);
+    color: rgb(0, 0, 0);
 }
 
 form label, form input, form textarea {
@@ -85,7 +85,7 @@ form label, form input, form textarea {
 }
 
 form input[type="submit"] {
-    background-color: blue;
+    background-color: #808080;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -93,7 +93,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: red;
+    background-color: #666666;
 }
 
 main, section, p {
@@ -124,5 +124,8 @@ img {
 #Kontakt input[type="email"],
 #Kontakt textarea {
     width: 100%;
+    box-sizing: border-box;
+    color: blue;
+}
     box-sizing: border-box;
 }
