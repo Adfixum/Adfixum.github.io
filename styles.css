@@ -1,4 +1,4 @@
-/* Basis-Styles */
+/* Basis-Layout */
 body {
     background-color: white;
     color: black;
@@ -8,7 +8,6 @@ body {
     flex-direction: column;
 }
 
-/* Main-Bereich muss wachsen können */
 main {
     flex: 1;
     padding: 20px;
@@ -31,6 +30,7 @@ footer {
     margin-top: auto;
 }
 
+/* Logo und Titel Gruppe */
 .logo-title-group {
     display: flex;
     align-items: center;
@@ -42,12 +42,13 @@ footer {
     height: 80px;
 }
 
-.logo-title-group h1 {
-    margin: 0;
-    color: white;
+/* Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Navigation */
 nav ul {
     display: flex;
     list-style: none;
@@ -118,4 +119,10 @@ img {
     background-size: cover;
     background-position: center;
     height: 400px;
+}
+#Kontakt input[type="text"],
+#Kontakt input[type="email"],
+#Kontakt textarea {
+    width: 100%;
+    box-sizing: border-box;
 }
