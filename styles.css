@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    color: white;
+    color: black;
 }
 
 header, footer {
@@ -31,7 +31,6 @@ h1, h2 {
     color: rgb(255, 255, 255);
 }
 
-
 #Kontakt {
     background-color: rgb(215, 12, 12);
     color: blue;
@@ -52,13 +51,11 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: red;
 }
-body {
-    color: black;
-}
 
 main, section, p {
     color: black;
 }
+
 .legal-content {
     color: black;
 }
