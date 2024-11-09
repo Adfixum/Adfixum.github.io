@@ -74,7 +74,7 @@ img {
     margin: 10px;
 }
 .hero-section {
-    background-image: url('images/Logo.jpg');
+    background-image: url('Logo.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
