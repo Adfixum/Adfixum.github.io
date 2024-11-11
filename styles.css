@@ -81,7 +81,7 @@ main h2 {
 }
 
 form label, form input, form textarea {
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 form input[type="submit"] {
@@ -126,4 +126,8 @@ img {
     width: 100%;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
+}
+#Willkommen\ bei\ Adfixum img {
+    display: block;
+    margin: 0 auto;
 }
