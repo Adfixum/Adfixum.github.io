@@ -93,7 +93,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #666666;
+    background-color: #282828;
 }
 
 main, section, p {
@@ -125,7 +125,5 @@ img {
 #Kontakt textarea {
     width: 100%;
     box-sizing: border-box;
-    color: blue;
-}
-    box-sizing: border-box;
+    color: rgb(0, 0, 0);
 }
